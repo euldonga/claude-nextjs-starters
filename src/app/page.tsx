@@ -59,8 +59,8 @@ export default function HomePage() {
           <p className="mb-8 text-muted-foreground">
             아래 구조를 참고하여 원하는 페이지와 컴포넌트를 추가하세요.
           </p>
-          <div className="rounded-lg border border-border bg-muted/50 p-6 text-left font-mono text-sm">
-            <pre className="text-muted-foreground">{`src/
+          <div className="overflow-x-auto rounded-lg border border-border bg-muted/50 p-4 text-left font-mono text-xs sm:p-6 sm:text-sm">
+            <pre className="whitespace-pre text-muted-foreground">{`src/
 ├── app/
 │   ├── layout.tsx      # 루트 레이아웃
 │   ├── page.tsx        # 홈 페이지
